@@ -72,13 +72,34 @@ class HelloWorld extends Component {
               <div class="col-md-8 col-lg-9 content-column">
                 <div class="small-navbar d-flex d-md-none">
                   <button type="button" data-toggle="offcanvas" class="btn btn-outline-primary">
-                    {' '}
                     <i class="fa fa-align-left mr-2" />Menu
                   </button>
                   <h1 class="small-navbar-heading">
-                    {' '}
-                    <a href="index.html">Creative </a>
+                    <a href="#">Creative </a>
                   </h1>
+                </div>
+              </div>
+
+              <div class="grid row">
+                <div class="col-md-6 col-lg-3 grid-item">
+                  <div class="box-masonry">
+                    {' '}
+                    <a href="#" title="" class="box-masonry-image with-hover-overlay">
+                      <img src="images/a4-paper.jpg" alt="" className="img-fluid" />
+                    </a>
+                    <div class="box-masonry-hover-text-header">
+                      {' '}
+                      <a href="#" class="tile-link" />
+                      <h4>Name of the work 1</h4>
+                      <div class="box-masonry-desription">
+                        <p>
+                          Even the all-powerful Pointing has no control about the blind texts it is an almost
+                          unorthographic life. One day however a small line of blind text by the name of Lorem Ipsum
+                          decided to leave for the far World of Grammar.{' '}
+                        </p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
 
