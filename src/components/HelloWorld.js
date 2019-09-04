@@ -78,120 +78,84 @@ class HelloWorld extends Component {
                     <a href="#">Creative </a>
                   </h1>
                 </div>
-              </div>
 
-              <div class="grid row">
-                <div class="col-md-6 col-lg-3 grid-item">
-                  <div class="box-masonry">
-                    <a href="#" title="" class="box-masonry-image with-hover-overlay">
-                      <img src="images/a4-paper.jpg" alt="" className="img-fluid" />
-                    </a>
-                    <div class="box-masonry-hover-text-header">
-                      <a href="#" class="tile-link" />
-                      <h4>Name of the work 1</h4>
-                      <div class="box-masonry-desription">
-                        <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus massa ante, sagittis at
-                          lacinia sit amet, sagittis dapibus dolor. Nullam eu ultrices risus, eu congue eros. Sed tempor
-                          ipsum quis dignissim tincidunt.
-                        </p>
+                <div class="grid row">
+                  <div class="col-md-6 col-lg-3 grid-item">
+                    <div class="box-masonry">
+                      <a href="#" title="" class="box-masonry-image with-hover-overlay with-hover-icon">
+                        <img src="images/business-card-26.jpg" alt="" class="img-fluid" />
+                      </a>
+                      <div class="box-masonry-text">
+                        <h4>
+                          <a href="#">Name of the work 2</a>
+                        </h4>
+                        <div class="box-masonry-desription">
+                          <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus massa ante, sagittis at
+                            lacinia sit amet, sagittis dapibus dolor. Nullam eu ultrices risus, eu congue eros. Sed
+                            tempor ipsum quis dignissim tincidunt.
+                          </p>
+                        </div>
                       </div>
                     </div>
                   </div>
-                </div>
 
-                <div class="col-md-6 col-lg-3 grid-item">
-                  <div class="box-masonry">
-                    <a href="#" title="" class="box-masonry-image with-hover-overlay with-hover-icon">
-                      <img src="images/business-card-26.jpg" alt="" class="img-fluid" />
-                    </a>
-                    <div class="box-masonry-text">
-                      <h4>
-                        <a href="#">Name of the work 2</a>
-                      </h4>
-                      <div class="box-masonry-desription">
-                        <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus massa ante, sagittis at
-                          lacinia sit amet, sagittis dapibus dolor. Nullam eu ultrices risus, eu congue eros. Sed tempor
-                          ipsum quis dignissim tincidunt.
-                        </p>
+                  <div class="col-md-6 col-lg-3 grid-item">
+                    <div class="box-masonry">
+                      <a href="#" title="" class="box-masonry-image with-hover-overlay with-hover-icon">
+                        <img src="images/gravity-paper.jpg" alt="" class="img-fluid" />
+                      </a>
+                      <div class="box-masonry-text">
+                        <h4>
+                          <a href="#">Name of the work 3</a>
+                        </h4>
+                        <div class="box-masonry-desription">
+                          <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus massa ante, sagittis at
+                            lacinia sit amet, sagittis dapibus dolor. Nullam eu ultrices risus, eu congue eros. Sed
+                            tempor ipsum quis dignissim tincidunt.
+                          </p>
+                        </div>
                       </div>
                     </div>
                   </div>
-                </div>
 
-                <div class="col-md-6 col-lg-3 grid-item">
-                  <div class="box-masonry">
-                    <a href="#" title="" class="box-masonry-image with-hover-overlay with-hover-icon">
-                      <img src="images/gravity-paper.jpg" alt="" class="img-fluid" />
-                    </a>
-                    <div class="box-masonry-text">
-                      <h4>
-                        <a href="#">Name of the work 3</a>
-                      </h4>
-                      <div class="box-masonry-desription">
-                        <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus massa ante, sagittis at
-                          lacinia sit amet, sagittis dapibus dolor. Nullam eu ultrices risus, eu congue eros. Sed tempor
-                          ipsum quis dignissim tincidunt.
-                        </p>
+                  <div class="col-md-6 col-lg-3 grid-item">
+                    <div class="box-masonry">
+                      <a href="#" title="" class="box-masonry-image with-hover-overlay with-hover-icon">
+                        <img src="images/gravity-paper.jpg" alt="" class="img-fluid" />
+                      </a>
+                      <div class="box-masonry-text">
+                        <h4>
+                          <a href="#">Name of the work 4</a>
+                        </h4>
+                        <div class="box-masonry-desription">
+                          <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus massa ante, sagittis at
+                            lacinia sit amet, sagittis dapibus dolor. Nullam eu ultrices risus, eu congue eros. Sed
+                            tempor ipsum quis dignissim tincidunt.
+                          </p>
+                        </div>
                       </div>
                     </div>
                   </div>
-                </div>
 
-                <div class="col-md-6 col-lg-3 grid-item">
-                  <div class="box-masonry">
-                    <a href="#" title="" class="box-masonry-image with-hover-overlay with-hover-icon">
-                      <img src="images/gravity-paper.jpg" alt="" class="img-fluid" />
-                    </a>
-                    <div class="box-masonry-text">
-                      <h4>
-                        <a href="#">Name of the work 4</a>
-                      </h4>
-                      <div class="box-masonry-desription">
-                        <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus massa ante, sagittis at
-                          lacinia sit amet, sagittis dapibus dolor. Nullam eu ultrices risus, eu congue eros. Sed tempor
-                          ipsum quis dignissim tincidunt.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-md-6 col-lg-3 grid-item">
-                  <div class="box-masonry">
-                    <div class="box-masonry-text">
-                      <h4>
-                        <a href="detail.html">Item without image</a>
-                      </h4>
-                      <div class="box-masonry-desription">
-                        <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus massa ante, sagittis at
-                          lacinia sit amet, sagittis dapibus dolor. Nullam eu ultrices risus, eu congue eros. Sed tempor
-                          ipsum quis dignissim tincidunt.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-md-6 col-lg-3 grid-item">
-                  <div class="box-masonry">
-                    <a href="#" title="" class="box-masonry-image with-hover-overlay with-hover-icon">
-                      <img src="images/label-clothes.jpg" alt="" class="img-fluid" />
-                    </a>
-                    <div class="box-masonry-text">
-                      <h4>
-                        <a href="#">Name of the work 4</a>
-                      </h4>
-                      <div class="box-masonry-desription">
-                        <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus massa ante, sagittis at
-                          lacinia sit amet, sagittis dapibus dolor. Nullam eu ultrices risus, eu congue eros. Sed tempor
-                          ipsum quis dignissim tincidunt.
-                        </p>
+                  <div class="col-md-6 col-lg-3 grid-item">
+                    <div class="box-masonry">
+                      <a href="#" title="" class="box-masonry-image with-hover-overlay with-hover-icon">
+                        <img src="images/label-clothes.jpg" alt="" class="img-fluid" />
+                      </a>
+                      <div class="box-masonry-text">
+                        <h4>
+                          <a href="#">Name of the work 4</a>
+                        </h4>
+                        <div class="box-masonry-desription">
+                          <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus massa ante, sagittis at
+                            lacinia sit amet, sagittis dapibus dolor. Nullam eu ultrices risus, eu congue eros. Sed
+                            tempor ipsum quis dignissim tincidunt.
+                          </p>
+                        </div>
                       </div>
                     </div>
                   </div>
