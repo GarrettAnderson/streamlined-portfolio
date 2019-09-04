@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import profileImg from '../images/cropHeadShot.png'
 
 class HelloWorld extends Component {
   render() {
@@ -10,14 +11,17 @@ class HelloWorld extends Component {
               {/*  *** SIDEBAR *** */}
               <div id="sidebar" class="col-md-4 col-lg-3 sidebar-offcanvas">
                 <div class="sidebar-content">
+                  <img src={profileImg} alt="professional-headshot" className="profile-image" />
                   <h1 class="sidebar-heading">
-                    {' '}
-                    <a href="index.html">Creative</a>
+                    <a href="index.html">Garrett Lee Graham Anderson</a>
                   </h1>
                   <p class="sidebar-p">
-                    I am a creative illustrator and graphic designer with more than 10 years of experience.{' '}
+                    A Florida native with a global mindset and a passion for building beautiful things. My greatest wish
+                    is to bring people together as a tribe. I incorporate this sentiment in my approach to software
+                    development, focusing on how to best represent my work and the work I accomplish for clients and
+                    employers alike.
                   </p>
-                  <p class="sidebar-p">Originally from Toronto, currently based in London. </p>
+                  <p class="sidebar-p">Born and raised in the shadow of the happiest place on earth. </p>
                   <ul class="sidebar-menu">
                     {/*  Link */}
                     <li class="sidebar-item">
