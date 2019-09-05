@@ -4,6 +4,7 @@ import James_Hmpage from '../images/James_Hmpage.png'
 import yogiMeImg from '../images/yogiMeImg.png'
 import toTheMoviesImg from '../images/toTheMoviesImg.png'
 import bombSnifferImg from '../images/bombSnifferImg.png'
+import Garrett_Anderson_July_2019 from '../images/Garrett_Anderson_July_2019.pdf'
 
 class HelloWorld extends Component {
   render() {
@@ -29,38 +30,43 @@ class HelloWorld extends Component {
                   <ul class="sidebar-menu">
                     {/*  Link */}
                     <li class="sidebar-item">
-                      <a href="index.html" class="sidebar-link active">
+                      <a href="/" class="sidebar-link active">
                         Home
                       </a>
                     </li>
                     {/*  Link */}
                     <li class="sidebar-item">
-                      <a href="about.html" class="sidebar-link">
+                      <a href="#" class="sidebar-link">
                         About
                       </a>
                     </li>
                     {/*  Link */}
                     <li class="sidebar-item">
-                      <a href="contact.html" class="sidebar-link">
+                      <a href="#" class="sidebar-link">
                         Get in touch
                       </a>
                     </li>
                   </ul>
                   <p class="social">
-                    <a href="#" data-animate-hover="pulse" class="external facebook">
-                      <i class="fa fa-facebook" />
+                    <a href="https://github.com/GarrettAnderson" data-animate-hover="pulse" class="external github">
+                      <i class="fab fa-github" />
                     </a>
-                    <a href="#" data-animate-hover="pulse" class="external gplus">
-                      <i class="fa fa-google-plus" />
+                    <a
+                      href="https://www.linkedin.com/in/garrettleegrahamanderson"
+                      data-animate-hover="pulse"
+                      class="external linkedin"
+                    >
+                      <i class="fab fa-linkedin-in" />
                     </a>
-                    <a href="#" data-animate-hover="pulse" class="external twitter">
-                      <i class="fa fa-twitter" />
+                    <a
+                      href="https://medium.com/@garrettleegrahamanderson"
+                      data-animate-hover="pulse"
+                      class="external medium"
+                    >
+                      <i class="fab fa-medium-m" />
                     </a>
-                    <a href="#" title="" class="external instagram">
+                    <a href={Garrett_Anderson_July_2019} title="" class="external instagram">
                       <i class="fa fa-instagram" />
-                    </a>
-                    <a href="#" data-animate-hover="pulse" class="email">
-                      <i class="fa fa-envelope" />
                     </a>
                   </p>
                   <div class="copyright text-center text-md-left">
