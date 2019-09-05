@@ -1,5 +1,9 @@
 import React, { Component } from 'react'
 import profileImg from '../images/cropHeadShot.png'
+import James_Hmpage from '../images/James_Hmpage.png'
+import yogiMeImg from '../images/yogiMeImg.png'
+import toTheMoviesImg from '../images/toTheMoviesImg.png'
+import bombSnifferImg from '../images/bombSnifferImg.png'
 
 class HelloWorld extends Component {
   render() {
@@ -12,7 +16,7 @@ class HelloWorld extends Component {
               <div id="sidebar" class="col-md-4 col-lg-3 sidebar-offcanvas">
                 <div class="sidebar-content">
                   <img src={profileImg} alt="professional-headshot" className="profile-image" />
-                  <h1 class="sidebar-heading">
+                  <h1 className="sidebar-heading">
                     <a href="index.html">Garrett Lee Graham Anderson</a>
                   </h1>
                   <p class="sidebar-p">
@@ -61,7 +65,7 @@ class HelloWorld extends Component {
                   </p>
                   <div class="copyright text-center text-md-left">
                     <p class="credit">
-                      &copy;2018 Your name or company | Template by{' '}
+                      &copy;2018 Your name or company | Template by
                       <a href="http://bootstrapious.com/portfolio-themes" class="external">
                         Bootstrapious.com
                       </a>
@@ -75,11 +79,12 @@ class HelloWorld extends Component {
               {/* PORTFOLIO */}
               <div class="col-md-8 col-lg-9 content-column">
                 <div class="small-navbar d-flex d-md-none">
-                  <button type="button" data-toggle="offcanvas" class="btn btn-outline-primary">
+                  {/* <button type="button" data-toggle="offcanvas" class="btn btn-outline-primary">
                     <i class="fa fa-align-left mr-2" />Menu
-                  </button>
+                  </button> */}
+                  <img src={profileImg} alt="professional-headshot" className="profile-image" />
                   <h1 class="small-navbar-heading">
-                    <a href="#">Creative </a>
+                    <a href="#">Garrett Lee Graham Anderson</a>
                   </h1>
                 </div>
 
@@ -87,7 +92,7 @@ class HelloWorld extends Component {
                   <div class="col-md-6 col-lg-3 grid-item">
                     <div class="box-masonry">
                       <a href="#" title="" class="box-masonry-image with-hover-overlay with-hover-icon">
-                        <img src="images/business-card-26.jpg" alt="" class="img-fluid" />
+                        <img src={James_Hmpage} alt="" class="img-fluid" />
                       </a>
                       <div class="box-masonry-text">
                         <h4>
@@ -107,7 +112,7 @@ class HelloWorld extends Component {
                   <div class="col-md-6 col-lg-3 grid-item">
                     <div class="box-masonry">
                       <a href="#" title="" class="box-masonry-image with-hover-overlay with-hover-icon">
-                        <img src="images/gravity-paper.jpg" alt="" class="img-fluid" />
+                        <img src={yogiMeImg} alt="" class="img-fluid" />
                       </a>
                       <div class="box-masonry-text">
                         <h4>
@@ -127,7 +132,7 @@ class HelloWorld extends Component {
                   <div class="col-md-6 col-lg-3 grid-item">
                     <div class="box-masonry">
                       <a href="#" title="" class="box-masonry-image with-hover-overlay with-hover-icon">
-                        <img src="images/gravity-paper.jpg" alt="" class="img-fluid" />
+                        <img src={toTheMoviesImg} alt="" class="img-fluid" />
                       </a>
                       <div class="box-masonry-text">
                         <h4>
@@ -147,7 +152,7 @@ class HelloWorld extends Component {
                   <div class="col-md-6 col-lg-3 grid-item">
                     <div class="box-masonry">
                       <a href="#" title="" class="box-masonry-image with-hover-overlay with-hover-icon">
-                        <img src="images/label-clothes.jpg" alt="" class="img-fluid" />
+                        <img src={bombSnifferImg} alt="" class="img-fluid" />
                       </a>
                       <div class="box-masonry-text">
                         <h4>
