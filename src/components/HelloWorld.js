@@ -54,7 +54,7 @@ class HelloWorld extends Component {
                     <a
                       href="https://www.linkedin.com/in/garrettleegrahamanderson"
                       data-animate-hover="pulse"
-                      class="external linkedin"
+                      class="external-linkedin"
                     >
                       <i class="fab fa-linkedin-in" />
                     </a>
