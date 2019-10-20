@@ -20,43 +20,44 @@ class HelloWorld extends Component {
                   <h1 className="sidebar-heading">
                     <a href="index.html">Garrett Lee Graham Anderson</a>
                   </h1>
-                  <p class="sidebar-p">
+                  <p className="sidebar-p">
                     A Florida native with a global mindset and a passion for building beautiful things. My greatest wish
                     is to bring people together as a tribe. I incorporate this sentiment in my approach to software
                     development, focusing on how to best represent my work and the work I accomplish for clients and
                     employers alike.
                   </p>
-                  <p class="sidebar-p">Born and raised in the shadow of the happiest place on earth. </p>
-                  <ul class="sidebar-menu">
+                  <p className="sidebar-p">Born and raised in the shadow of the happiest place on earth. </p>
+                  <ul className="sidebar-menu">
                     {/*  Link */}
                     <li class="sidebar-item">
-                      <a href="/" class="sidebar-link active">
+                      <i class="fas fa-home" />
+                      <a href="/" className="sidebar-link active">
                         Home
                       </a>
                     </li>
                     {/*  Link */}
                     <li class="sidebar-item">
-                      <a href="#" class="sidebar-link">
+                      <a href="#" className="sidebar-link">
                         About
                       </a>
                     </li>
                     {/*  Link */}
                     <li class="sidebar-item">
-                      <a href="#" class="sidebar-link">
+                      <a href="#" className="sidebar-link">
                         Get in touch
                       </a>
                     </li>
                   </ul>
-                  <p class="social">
+                  <p className="social">
                     <a href="https://github.com/GarrettAnderson" data-animate-hover="pulse" class="external github">
-                      <i class="fab fa-github" />
+                      <i className="fab fa-github" />
                     </a>
                     <a
                       href="https://www.linkedin.com/in/garrettleegrahamanderson"
                       data-animate-hover="pulse"
                       class="external-linkedin"
                     >
-                      <i class="fab fa-linkedin-in" />
+                      <i className="fab fa-linkedin-in" />
                     </a>
                     <a
                       href="https://medium.com/@garrettleegrahamanderson"

@@ -320,12 +320,12 @@ SIDEBAR + RIGHT COLUMN
   list-style-type: none;
 }
 
-.content-column-content ul li:before {
-  font-family: 'FontAwesome' !important;
-  content: 'f105' !important;
+/* .content-column-content ul li:before {
+  font-family: 'Font Awesome 5 free';
+  content: 'f105';
   margin: 0 0.85rem 0 -0.9375rem;
   color: #ef5285;
-}
+} */
 
 .content-column-content h1,
 .content-column-content h2,
