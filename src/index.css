@@ -195,6 +195,8 @@ SIDEBAR + RIGHT COLUMN
   text-decoration: none;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
+  display: flex;
+  justify-content: center;
 }
 
 .sidebar-heading a:hover {
@@ -205,6 +207,13 @@ SIDEBAR + RIGHT COLUMN
 
 .sidebar-heading ol {
   list-style: none;
+  padding: 0;
+  margin-top: 1rem;
+}
+
+.sidebar-heading li {
+  display: flex;
+  justify-content: center;
 }
 
 .sidebar-p {
