@@ -188,6 +188,7 @@ SIDEBAR + RIGHT COLUMN
 .sidebar-heading {
   font-size: 1.125rem;
   text-transform: uppercase;
+  margin-bottom: 0;
 }
 
 .sidebar-heading a {
@@ -360,6 +361,10 @@ SIDEBAR + RIGHT COLUMN
 .small-navbar img {
   width: 15rem;
   border-radius: 8rem;
+}
+
+.small-navbar ol {
+  list-style: none;
 }
 
 .small-navbar-heading {

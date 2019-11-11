@@ -89,10 +89,16 @@ class HelloWorld extends Component {
                   {/* <button type="button" data-toggle="offcanvas" class="btn btn-outline-primary">
                     <i class="fa fa-align-left mr-2" />Menu
                   </button> */}
-                  <img src={profileImg} alt="professional-headshot" className="profile-image" />
-                  <h1 class="small-navbar-heading">
-                    <a href="#">Garrett Lee Graham Anderson</a>
-                  </h1>
+                  <ol>
+                    <li>
+                      <img src={profileImg} alt="professional-headshot" className="profile-image" />
+                    </li>
+                    <li>
+                      <h1 class="small-navbar-heading">
+                        <a href="#">Garrett Lee Graham Anderson</a>
+                      </h1>
+                    </li>
+                  </ol>
                 </div>
 
                 <div class="grid row">
