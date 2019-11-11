@@ -73,7 +73,7 @@ class HelloWorld extends Component {
                       <i class="fab fa-medium-m" />
                     </a>
                     <a href={Garrett_Anderson_July_2019} title="" class="external instagram">
-                      <i class="fa fa-instagram" />
+                      <i class="far fa-file" />
                     </a>
                   </p>
                   <div class="copyright text-center text-md-left">
