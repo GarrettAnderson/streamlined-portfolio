@@ -18,7 +18,13 @@ class HelloWorld extends Component {
                 <div class="sidebar-content">
                   <img src={profileImg} alt="professional-headshot" className="profile-image" />
                   <h1 className="sidebar-heading">
-                    <a href="index.html">Garrett Lee Graham Anderson</a>
+                    <a href="index.html">
+                      <ol>
+                        <li>Garrett</li>
+                        <li>Lee Graham</li>
+                        <li>Anderson</li>
+                      </ol>
+                    </a>
                   </h1>
                   <p className="sidebar-p">
                     A Florida native with a global mindset and a passion for building beautiful things. My greatest wish
