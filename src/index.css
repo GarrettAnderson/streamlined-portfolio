@@ -263,12 +263,12 @@ SIDEBAR + RIGHT COLUMN
   color: #555;
 }
 
-.sidebar-link:before {
+/* .sidebar-link:before {
   font-family: 'FontAwesome';
   content: '\f105';
   margin: 0 0.85rem 0 -0.9375rem;
   color: #999;
-}
+} */
 
 .sidebar-link.active {
   color: #ef5285;
