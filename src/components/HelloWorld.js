@@ -86,9 +86,9 @@ class HelloWorld extends Component {
               {/* PORTFOLIO */}
               <div class="col-md-8 col-lg-9 content-column">
                 <div class="small-navbar d-flex d-md-none">
-                  {/* <button type="button" data-toggle="offcanvas" class="btn btn-outline-primary">
+                  <button type="button" data-toggle="offcanvas" class="btn btn-outline-primary">
                     <i class="fa fa-align-left mr-2" />Menu
-                  </button> */}
+                  </button>
                   <ol>
                     <li>
                       <img src={profileImg} alt="professional-headshot" className="profile-image" />
@@ -109,7 +109,7 @@ class HelloWorld extends Component {
                       </a>
                       <div class="box-masonry-text">
                         <h4>
-                          <a href="#">Name of the work 2</a>
+                          <a href="#">James Dean Does Other Stuff</a>
                         </h4>
                         <div class="box-masonry-desription">
                           <p>
@@ -129,7 +129,7 @@ class HelloWorld extends Component {
                       </a>
                       <div class="box-masonry-text">
                         <h4>
-                          <a href="#">Name of the work 3</a>
+                          <a href="#">The Yogi Me</a>
                         </h4>
                         <div class="box-masonry-desription">
                           <p>
@@ -149,7 +149,7 @@ class HelloWorld extends Component {
                       </a>
                       <div class="box-masonry-text">
                         <h4>
-                          <a href="#">Name of the work 4</a>
+                          <a href="#">To The Movies</a>
                         </h4>
                         <div class="box-masonry-desription">
                           <p>
@@ -169,7 +169,7 @@ class HelloWorld extends Component {
                       </a>
                       <div class="box-masonry-text">
                         <h4>
-                          <a href="#">Name of the work 4</a>
+                          <a href="#">Bomb Sniffer</a>
                         </h4>
                         <div class="box-masonry-desription">
                           <p>
