@@ -174,8 +174,14 @@ SIDEBAR + RIGHT COLUMN
 }
 
 .sidebar-content img {
-  width: 12rem;
+  width: 9rem;
   border-radius: 6rem;
+}
+
+.profile-image-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 @media (min-width: 576px) {
@@ -370,6 +376,7 @@ SIDEBAR + RIGHT COLUMN
 
 .small-navbar ol {
   list-style: none;
+  margin: 0;
 }
 
 .small-navbar-heading {
@@ -540,6 +547,7 @@ SOCIAL LINKS
 
 p.social {
   margin-top: 1.25rem;
+  text-align: center;
 }
 
 p.social a {

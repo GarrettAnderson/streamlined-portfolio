@@ -20,16 +20,18 @@ class HelloWorld extends Component {
               {/*  *** SIDEBAR *** */}
               <div id="sidebar" class="col-md-4 col-lg-3 sidebar-offcanvas">
                 <div class="sidebar-content">
-                  <img src={profileImg} alt="professional-headshot" className="profile-image" />
-                  <h1 className="sidebar-heading">
-                    <a href="index.html">
-                      <ol>
-                        <li>Garrett</li>
-                        <li>Lee Graham</li>
-                        <li>Anderson</li>
-                      </ol>
-                    </a>
-                  </h1>
+                  <div class="profile-image-header">
+                    <img src={profileImg} alt="professional-headshot" className="profile-image" />
+                    <h1 className="sidebar-heading">
+                      <a href="index.html">
+                        <ol>
+                          <li>Garrett</li>
+                          <li>Lee Graham</li>
+                          <li>Anderson</li>
+                        </ol>
+                      </a>
+                    </h1>
+                  </div>
                   <p className="sidebar-p">
                     A Florida native with a global mindset and a passion for building beautiful things. My greatest wish
                     is to bring people together as a tribe. I incorporate this sentiment in my approach to software
@@ -104,7 +106,7 @@ class HelloWorld extends Component {
                     </li> */}
                     <li>
                       <h1 class="small-navbar-heading">
-                        <a href="#">Garrett Lee Graham Anderson</a>
+                        <a href="#">Garrett Anderson</a>
                       </h1>
                     </li>
                   </ol>
