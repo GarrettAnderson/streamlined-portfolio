@@ -173,6 +173,11 @@ SIDEBAR + RIGHT COLUMN
   padding-top: 2.5rem;
 }
 
+.sidebar-content img {
+  width: 12rem;
+  border-radius: 6rem;
+}
+
 @media (min-width: 576px) {
   .sidebar-content {
     padding-left: 1.25rem;

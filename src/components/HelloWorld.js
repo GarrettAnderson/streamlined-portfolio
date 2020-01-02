@@ -20,7 +20,7 @@ class HelloWorld extends Component {
               {/*  *** SIDEBAR *** */}
               <div id="sidebar" class="col-md-4 col-lg-3 sidebar-offcanvas">
                 <div class="sidebar-content">
-                  {/* <img src={profileImg} alt="professional-headshot" className="profile-image" /> */}
+                  <img src={profileImg} alt="professional-headshot" className="profile-image" />
                   <h1 className="sidebar-heading">
                     <a href="index.html">
                       <ol>
