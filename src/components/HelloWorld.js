@@ -39,27 +39,27 @@ class HelloWorld extends Component {
                     employers alike.
                   </p>
                   <p className="sidebar-p">Born and raised in the shadow of the happiest place on earth. </p>
-                  <ul className="sidebar-menu">
-                    {/*  Link */}
-                    <li class="sidebar-item">
-                      {/* <i class="fas fa-home" /> */}
-                      <a href="/" className="sidebar-link active">
+                  {/* <ul className="sidebar-menu"> */}
+                  {/*  Link */}
+                  {/* <li class="sidebar-item"> */}
+                  {/* <i class="fas fa-home" /> */}
+                  {/* <a href="/" className="sidebar-link active">
                         Home
                       </a>
-                    </li>
-                    {/*  Link */}
-                    <li class="sidebar-item">
+                    </li> */}
+                  {/*  Link */}
+                  {/* <li class="sidebar-item">
                       <a href="#" className="sidebar-link">
                         About
                       </a>
-                    </li>
-                    {/*  Link */}
-                    <li class="sidebar-item">
+                    </li> */}
+                  {/*  Link */}
+                  {/* <li class="sidebar-item">
                       <a href="#" className="sidebar-link">
                         Get in touch
                       </a>
-                    </li>
-                  </ul>
+                    </li> */}
+                  {/* </ul> */}
                   <p className="social">
                     <a href="https://github.com/GarrettAnderson" data-animate-hover="pulse" class="external github">
                       <i className="fab fa-github" />
@@ -83,7 +83,7 @@ class HelloWorld extends Component {
                     </a>
                   </p>
                   <div class="copyright text-center text-md-left">
-                    <p class="credit">&copy;2019 | Garrett L. G. Anderson</p>
+                    <p class="credit">&copy;2020 | Garrett L. G. Anderson</p>
                   </div>
                 </div>
               </div>
