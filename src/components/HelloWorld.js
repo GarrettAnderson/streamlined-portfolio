@@ -5,6 +5,7 @@ import yogiMeImg from '../images/yogiMeImg.png'
 import toTheMoviesImg from '../images/toTheMoviesImg.png'
 import bombSnifferImg from '../images/bombSnifferImg.png'
 import Garrett_Anderson_July_2019 from '../images/Garrett_Anderson_July_2019.pdf'
+import erinWedding from '../images/ErinWeddingScreenshot.png'
 
 class HelloWorld extends Component {
   state = {
@@ -98,7 +99,7 @@ class HelloWorld extends Component {
                     class="btn btn-outline-primary"
                     onClick={() => this.setState({ navShown: !this.state.navShown })}
                   >
-                    <i class="fa fa-align-left mr-2" />Menu
+                    <i class="fa fa-align-left mr-2" />About
                   </button>
                   <ol>
                     {/* <li>
@@ -175,6 +176,25 @@ class HelloWorld extends Component {
                         </h4>
                         <div class="box-masonry-desription">
                           <p>This is a project using an API to simulate the game minesweeper.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-6 col-lg-3 grid-item">
+                    <div class="box-masonry">
+                      <a href="#" title="" class="box-masonry-image with-hover-overlay with-hover-icon">
+                        <img src={erinWedding} alt="" class="img-fluid" />
+                      </a>
+                      <div class="box-masonry-text">
+                        <h4>
+                          <a href="#">The Bernhardt Wedding</a>
+                        </h4>
+                        <div class="box-masonry-desription">
+                          <p>
+                            This is a website I built for my sister's upcoming wedding. Built from scratch using
+                            ReactJS, CSS3, and HTML5.
+                          </p>
                         </div>
                       </div>
                     </div>
