@@ -7,16 +7,20 @@ import bombSnifferImg from '../images/bombSnifferImg.png'
 import Garrett_Anderson_July_2019 from '../images/Garrett_Anderson_July_2019.pdf'
 
 class HelloWorld extends Component {
+  state = {
+    navShown: true
+  }
+
   render() {
     return (
       <main>
         <div id="all">
           <div class="container-fluid">
-            <div class="row row-offcanvas row-offcanvas-left">
+            <div class={`row row-offcanvas row-offcanvas-left ${this.state.navShown ? 'active' : ''}`}>
               {/*  *** SIDEBAR *** */}
               <div id="sidebar" class="col-md-4 col-lg-3 sidebar-offcanvas">
                 <div class="sidebar-content">
-                  <img src={profileImg} alt="professional-headshot" className="profile-image" />
+                  {/* <img src={profileImg} alt="professional-headshot" className="profile-image" /> */}
                   <h1 className="sidebar-heading">
                     <a href="index.html">
                       <ol>
@@ -86,13 +90,18 @@ class HelloWorld extends Component {
               {/* PORTFOLIO */}
               <div class="col-md-8 col-lg-9 content-column">
                 <div class="small-navbar d-flex d-md-none">
-                  <button type="button" data-toggle="offcanvas" class="btn btn-outline-primary">
+                  <button
+                    type="button"
+                    data-toggle="offcanvas"
+                    class="btn btn-outline-primary"
+                    onClick={() => this.setState({ navShown: !this.state.navShown })}
+                  >
                     <i class="fa fa-align-left mr-2" />Menu
                   </button>
                   <ol>
-                    <li>
+                    {/* <li>
                       <img src={profileImg} alt="professional-headshot" className="profile-image" />
-                    </li>
+                    </li> */}
                     <li>
                       <h1 class="small-navbar-heading">
                         <a href="#">Garrett Lee Graham Anderson</a>
@@ -112,11 +121,7 @@ class HelloWorld extends Component {
                           <a href="#">James Dean Does Other Stuff</a>
                         </h4>
                         <div class="box-masonry-desription">
-                          <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus massa ante, sagittis at
-                            lacinia sit amet, sagittis dapibus dolor. Nullam eu ultrices risus, eu congue eros. Sed
-                            tempor ipsum quis dignissim tincidunt.
-                          </p>
+                          <p>Here is a website showcasing the artwork of a friend of mine.</p>
                         </div>
                       </div>
                     </div>
@@ -133,9 +138,8 @@ class HelloWorld extends Component {
                         </h4>
                         <div class="box-masonry-desription">
                           <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus massa ante, sagittis at
-                            lacinia sit amet, sagittis dapibus dolor. Nullam eu ultrices risus, eu congue eros. Sed
-                            tempor ipsum quis dignissim tincidunt.
+                            The Yogi Me is a project for yoga instructors providing the ability to create customized
+                            yoga classes.
                           </p>
                         </div>
                       </div>
@@ -152,11 +156,7 @@ class HelloWorld extends Component {
                           <a href="#">To The Movies</a>
                         </h4>
                         <div class="box-masonry-desription">
-                          <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus massa ante, sagittis at
-                            lacinia sit amet, sagittis dapibus dolor. Nullam eu ultrices risus, eu congue eros. Sed
-                            tempor ipsum quis dignissim tincidunt.
-                          </p>
+                          <p>This is a project showing top showing movies using the TMDB API.</p>
                         </div>
                       </div>
                     </div>
@@ -172,11 +172,7 @@ class HelloWorld extends Component {
                           <a href="#">Bomb Sniffer</a>
                         </h4>
                         <div class="box-masonry-desription">
-                          <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus massa ante, sagittis at
-                            lacinia sit amet, sagittis dapibus dolor. Nullam eu ultrices risus, eu congue eros. Sed
-                            tempor ipsum quis dignissim tincidunt.
-                          </p>
+                          <p>This is a project using an API to simulate the game minesweeper.</p>
                         </div>
                       </div>
                     </div>
