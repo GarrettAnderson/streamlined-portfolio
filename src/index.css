@@ -184,6 +184,12 @@ SIDEBAR + RIGHT COLUMN
   align-items: center;
 }
 
+.project-site-links {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
 @media (min-width: 576px) {
   .sidebar-content {
     padding-left: 1.25rem;
@@ -886,8 +892,8 @@ ABOUT
   opacity: 0;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  font-family: 'FontAwesome';
-  content: '\f105';
+  /* font-family: 'FontAwesome'; */
+  /* content: '\f105'; */
   text-align: center;
   font-size: 3.125rem;
   color: #555;

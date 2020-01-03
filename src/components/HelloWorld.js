@@ -9,7 +9,7 @@ import erinWedding from '../images/ErinWeddingScreenshot.png'
 
 class HelloWorld extends Component {
   state = {
-    navShown: true
+    navShown: false
   }
 
   render() {
@@ -79,7 +79,12 @@ class HelloWorld extends Component {
                     >
                       <i class="fab fa-medium-m" />
                     </a>
-                    <a href={Garrett_Anderson_July_2019} title="" class="external instagram">
+                    <a
+                      href="https://github.com/GarrettAnderson/student-resumes"
+                      title="resume"
+                      class="external instagram"
+                      target="_blank"
+                    >
                       <i class="far fa-file" />
                     </a>
                   </p>
@@ -107,7 +112,7 @@ class HelloWorld extends Component {
                     </li> */}
                     <li>
                       <h1 class="small-navbar-heading">
-                        <a href="#">Garrett Anderson</a>
+                        <a href="/">Garrett Anderson</a>
                       </h1>
                     </li>
                   </ol>
@@ -116,15 +121,34 @@ class HelloWorld extends Component {
                 <div class="grid row">
                   <div class="col-md-6 col-lg-3 grid-item">
                     <div class="box-masonry">
-                      <a href="#" title="" class="box-masonry-image with-hover-overlay with-hover-icon">
+                      <a
+                        href="https://james-photo-gallery-garrettanderson.netlify.com/"
+                        title=""
+                        class="box-masonry-image with-hover-overlay with-hover-icon"
+                        target="_blank"
+                      >
                         <img src={James_Hmpage} alt="" class="img-fluid" />
                       </a>
                       <div class="box-masonry-text">
                         <h4>
-                          <a href="#">James Dean Does Other Stuff</a>
+                          <a href="https://james-photo-gallery-garrettanderson.netlify.com/" target="_blank">
+                            James Dean Does Other Stuff
+                          </a>
                         </h4>
                         <div class="box-masonry-desription">
                           <p>Here is a website showcasing the artwork of a friend of mine.</p>
+                          <ol className="project-site-links">
+                            <li>
+                              <a href="https://github.com/GarrettAnderson/james-photo-gallery" target="_blank">
+                                GitHub
+                              </a>
+                            </li>
+                            <li>
+                              <a href="https://james-photo-gallery-garrettanderson.netlify.com/" target="_blank">
+                                Live Site
+                              </a>
+                            </li>
+                          </ol>
                         </div>
                       </div>
                     </div>
@@ -132,18 +156,37 @@ class HelloWorld extends Component {
 
                   <div class="col-md-6 col-lg-3 grid-item">
                     <div class="box-masonry">
-                      <a href="#" title="" class="box-masonry-image with-hover-overlay with-hover-icon">
+                      <a
+                        href="https://yogi-me.herokuapp.com/"
+                        target="_blank"
+                        title=""
+                        class="box-masonry-image with-hover-overlay with-hover-icon"
+                      >
                         <img src={yogiMeImg} alt="" class="img-fluid" />
                       </a>
                       <div class="box-masonry-text">
                         <h4>
-                          <a href="#">The Yogi Me</a>
+                          <a href="https://yogi-me.herokuapp.com/" target="_blank">
+                            The Yogi Me
+                          </a>
                         </h4>
                         <div class="box-masonry-desription">
                           <p>
                             The Yogi Me is a project for yoga instructors providing the ability to create customized
                             yoga classes.
                           </p>
+                          <ol className="project-site-links">
+                            <li>
+                              <a href="https://github.com/GarrettAnderson/capstone" target="_blank">
+                                GitHub
+                              </a>
+                            </li>
+                            <li>
+                              <a href="https://yogi-me.herokuapp.com/" target="_blank">
+                                Live Site
+                              </a>
+                            </li>
+                          </ol>
                         </div>
                       </div>
                     </div>
@@ -151,15 +194,34 @@ class HelloWorld extends Component {
 
                   <div class="col-md-6 col-lg-3 grid-item">
                     <div class="box-masonry">
-                      <a href="#" title="" class="box-masonry-image with-hover-overlay with-hover-icon">
+                      <a
+                        href="https://to-the-movies-garrettanderson.netlify.com"
+                        title=""
+                        class="box-masonry-image with-hover-overlay with-hover-icon"
+                        target="_blank"
+                      >
                         <img src={toTheMoviesImg} alt="" class="img-fluid" />
                       </a>
                       <div class="box-masonry-text">
                         <h4>
-                          <a href="#">To The Movies</a>
+                          <a href="https://to-the-movies-garrettanderson.netlify.com" target="_blank">
+                            To The Movies
+                          </a>
                         </h4>
                         <div class="box-masonry-desription">
                           <p>This is a project showing top showing movies using the TMDB API.</p>
+                          <ol className="project-site-links">
+                            <li>
+                              <a href="https://github.com/GarrettAnderson/to-the-movies" target="_blank">
+                                GitHub
+                              </a>
+                            </li>
+                            <li>
+                              <a href="https://to-the-movies-garrettanderson.netlify.com" target="_blank">
+                                Live Site
+                              </a>
+                            </li>
+                          </ol>
                         </div>
                       </div>
                     </div>
@@ -167,15 +229,34 @@ class HelloWorld extends Component {
 
                   <div class="col-md-6 col-lg-3 grid-item">
                     <div class="box-masonry">
-                      <a href="#" title="" class="box-masonry-image with-hover-overlay with-hover-icon">
+                      <a
+                        href="https://bomb-sniffer-garrettanderson.netlify.com"
+                        title=""
+                        class="box-masonry-image with-hover-overlay with-hover-icon"
+                        target="_blank"
+                      >
                         <img src={bombSnifferImg} alt="" class="img-fluid" />
                       </a>
                       <div class="box-masonry-text">
                         <h4>
-                          <a href="#">Bomb Sniffer</a>
+                          <a href="https://bomb-sniffer-garrettanderson.netlify.com" target="_blank">
+                            Bomb Sniffer
+                          </a>
                         </h4>
                         <div class="box-masonry-desription">
                           <p>This is a project using an API to simulate the game minesweeper.</p>
+                          <ol className="project-site-links">
+                            <li>
+                              <a href="https://github.com/GarrettAnderson/bomb-sniffer" target="_blank">
+                                GitHub
+                              </a>
+                            </li>
+                            <li>
+                              <a href="https://bomb-sniffer-garrettanderson.netlify.com" target="_blank">
+                                Live Site
+                              </a>
+                            </li>
+                          </ol>
                         </div>
                       </div>
                     </div>
@@ -183,18 +264,37 @@ class HelloWorld extends Component {
 
                   <div class="col-md-6 col-lg-3 grid-item">
                     <div class="box-masonry">
-                      <a href="#" title="" class="box-masonry-image with-hover-overlay with-hover-icon">
+                      <a
+                        href="https://www.thebernhardtwedding.com"
+                        title=""
+                        class="box-masonry-image with-hover-overlay with-hover-icon"
+                        target="_blank"
+                      >
                         <img src={erinWedding} alt="" class="img-fluid" />
                       </a>
                       <div class="box-masonry-text">
                         <h4>
-                          <a href="#">The Bernhardt Wedding</a>
+                          <a href="https://www.thebernhardtwedding.com" target="_blank">
+                            The Bernhardt Wedding
+                          </a>
                         </h4>
                         <div class="box-masonry-desription">
                           <p>
                             This is a website I built for my sister's upcoming wedding. Built from scratch using
                             ReactJS, CSS3, and HTML5.
                           </p>
+                          <ol className="project-site-links">
+                            <li>
+                              <a href="https://github.com/GarrettAnderson/erins-wedding" target="_blank">
+                                GitHub
+                              </a>
+                            </li>
+                            <li>
+                              <a href="https://www.thebernhardtwedding.com" target="_blank">
+                                Live Site
+                              </a>
+                            </li>
+                          </ol>
                         </div>
                       </div>
                     </div>
