@@ -6,6 +6,7 @@ import toTheMoviesImg from '../images/toTheMoviesImg.png'
 import bombSnifferImg from '../images/bombSnifferImg.png'
 import Garrett_Anderson_July_2019 from '../images/Garrett_Anderson_July_2019.pdf'
 import erinWedding from '../images/ErinWeddingScreenshot.png'
+import diceGameScreenshot from '../images/DiceGameScreenshot.png'
 
 class HelloWorld extends Component {
   state = {
@@ -291,6 +292,41 @@ class HelloWorld extends Component {
                             </li>
                             <li>
                               <a href="https://www.thebernhardtwedding.com" target="_blank">
+                                Live Site
+                              </a>
+                            </li>
+                          </ol>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-6 col-lg-3 grid-item">
+                    <div class="box-masonry">
+                      <a
+                        href="https://dice-game-garrettgraham.netlify.com/"
+                        title=""
+                        class="box-masonry-image with-hover-overlay with-hover-icon"
+                        target="_blank"
+                      >
+                        <img src={diceGameScreenshot} alt="" class="img-fluid" />
+                      </a>
+                      <div class="box-masonry-text">
+                        <h4>
+                          <a href="https://dice-game-garrettgraham.netlify.com/" target="_blank">
+                            Dice Game
+                          </a>
+                        </h4>
+                        <div class="box-masonry-desription">
+                          <p>This is a dice game built built using HTML5, CSS3, and JavaScript.</p>
+                          <ol className="project-site-links">
+                            <li>
+                              <a href="https://github.com/GarrettAnderson/dice-game" target="_blank">
+                                GitHub
+                              </a>
+                            </li>
+                            <li>
+                              <a href="https://dice-game-garrettgraham.netlify.com/" target="_blank">
                                 Live Site
                               </a>
                             </li>
