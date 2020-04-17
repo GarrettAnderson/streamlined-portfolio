@@ -400,12 +400,12 @@ class HelloWorld extends Component {
                           </p>
                           <ol className="project-site-links">
                             <li>
-                              <a href="https://github.com/GarrettAnderson/monsters-rolodex" target="_blank">
+                              <a href="https://github.com/GarrettAnderson/ajax-type-ahead" target="_blank">
                                 GitHub
                               </a>
                             </li>
                             <li>
-                              <a href="https://monsters-rolodex-garrettgraham.netlify.com" target="_blank">
+                              <a href="https://ajax-type-ahead-garrettgraham.netlify.app/" target="_blank">
                                 Live Site
                               </a>
                             </li>
