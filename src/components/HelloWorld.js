@@ -7,6 +7,8 @@ import bombSnifferImg from '../images/bombSnifferImg.png'
 import Garrett_Anderson_July_2019 from '../images/Garrett_Anderson_July_2019.pdf'
 import erinWedding from '../images/ErinWeddingScreenshot.png'
 import diceGameScreenshot from '../images/DiceGameScreenshot.png'
+import monsterRolodexScreenshot from '../images/MonsterRolodexScreenshot.png'
+import ajaxAhead from '../images/ajaxAhead.png'
 
 class HelloWorld extends Component {
   state = {
@@ -327,6 +329,83 @@ class HelloWorld extends Component {
                             </li>
                             <li>
                               <a href="https://dice-game-garrettgraham.netlify.com/" target="_blank">
+                                Live Site
+                              </a>
+                            </li>
+                          </ol>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-6 col-lg-3 grid-item">
+                    <div class="box-masonry">
+                      <a
+                        href="https://monsters-rolodex-garrettgraham.netlify.com"
+                        title=""
+                        class="box-masonry-image with-hover-overlay with-hover-icon"
+                        target="_blank"
+                      >
+                        <img src={monsterRolodexScreenshot} alt="" class="img-fluid" />
+                      </a>
+                      <div class="box-masonry-text">
+                        <h4>
+                          <a href="https://monsters-rolodex-garrettgraham.netlify.com" target="_blank">
+                            Monsters Rolodex
+                          </a>
+                        </h4>
+                        <div class="box-masonry-desription">
+                          <p>
+                            This is an application consuming a RESTful API to render a list of avatars including some
+                            information of each. Built using HTML5, CSS3, and ReactJS.
+                          </p>
+                          <ol className="project-site-links">
+                            <li>
+                              <a href="https://github.com/GarrettAnderson/monsters-rolodex" target="_blank">
+                                GitHub
+                              </a>
+                            </li>
+                            <li>
+                              <a href="https://monsters-rolodex-garrettgraham.netlify.com" target="_blank">
+                                Live Site
+                              </a>
+                            </li>
+                          </ol>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-6 col-lg-3 grid-item">
+                    <div class="box-masonry">
+                      <a
+                        href="https://ajax-type-ahead-garrettgraham.netlify.app/"
+                        title=""
+                        class="box-masonry-image with-hover-overlay with-hover-icon"
+                        target="_blank"
+                      >
+                        <img src={ajaxAhead} alt="" class="img-fluid" />
+                      </a>
+                      <div class="box-masonry-text">
+                        <h4>
+                          <a href="https://monsters-rolodex-garrettgraham.netlify.com" target="_blank">
+                            Search by City/ State
+                          </a>
+                        </h4>
+                        <div class="box-masonry-desription">
+                          <p>
+                            This is an application consuming a RESTful API to render a list of cities and states. The
+                            user is able to type in the search bar to receive a list of cities that match the search
+                            parameters. Built using HTML5, CSS3, and vanilla JavaScript.
+                          </p>
+                          <ol className="project-site-links">
+                            <li>
+                              <a href="https://github.com/GarrettAnderson/monsters-rolodex" target="_blank">
+                                GitHub
+                              </a>
+                            </li>
+                            <li>
+                              <a href="https://monsters-rolodex-garrettgraham.netlify.com" target="_blank">
                                 Live Site
                               </a>
                             </li>
