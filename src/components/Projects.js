@@ -9,46 +9,26 @@ import diceGameScreenshot from '../images/DiceGameScreenshot.png'
 import monsterRolodexScreenshot from '../images/MonsterRolodexScreenshot.png'
 import ajaxAhead from '../images/ajaxAhead.png'
 import ProjectData from '../project-data'
+import Project from './Project'
 
 class Projects extends Component {
-  state = [
-    {
-      project1: {
-        name: 'James Dean Does Other Stuff',
-        image: '/images/James_Hmpage.png',
-        desc: 'Here is a website showcasing the artwork of a friend of mine.',
-        liveUrl: 'https://james-photo-gallery-garrettanderson.netlify.com/',
-        githubUrl: 'https://github.com/GarrettAnderson/james-photo-gallery'
-      }
-    },
-    {
-      project2: {
-        name: 'The Yogi Me',
-        image: '/images/yogiMeImg.png',
-        desc: 'The Yogi Me is a project for yoga instructors providing the ability to create customized yoga classes.',
-        liveUrl: 'https://yogi-me.herokuapp.com/',
-        githubUrl: 'https://github.com/GarrettAnderson/capstone'
-      }
-    },
-    {
-      project3: {
-        name: 'To The Movies',
-        image: '/images/toTheMoviesImg.png',
-        desc: 'This is a project showing top showing movies using the TMDB API.',
-        liveUrl: 'https://to-the-movies-garrettanderson.netlify.com',
-        githubUrl: 'https://github.com/GarrettAnderson/to-the-movies'
-      }
-    }
-  ]
-
-  componentDidMount() {
-    console.log(this.state)
-  }
-
   render() {
     return (
       <div class="grid row">
-        <div class="col-md-6 col-lg-3 grid-item">
+        {ProjectData.map((project) => {
+          console.log(project)
+          return (
+            <Project
+              key={project.id}
+              image={project.image}
+              name={project.name}
+              desc={project.desc}
+              liveUrl={project.liveUrl}
+              githubUrl={project.githubUrl}
+            />
+          )
+        })}
+        {/* <div class="col-md-6 col-lg-3 grid-item">
           <div class="box-masonry">
             <a
               href="https://james-photo-gallery-garrettanderson.netlify.com/"
@@ -338,7 +318,7 @@ class Projects extends Component {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     )
   }
