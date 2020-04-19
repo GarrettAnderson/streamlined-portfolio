@@ -20,8 +20,30 @@ class Projects extends Component {
         liveUrl: 'https://james-photo-gallery-garrettanderson.netlify.com/',
         githubUrl: 'https://github.com/GarrettAnderson/james-photo-gallery'
       }
+    },
+    {
+      project2: {
+        name: 'The Yogi Me',
+        image: '/images/yogiMeImg.png',
+        desc: 'The Yogi Me is a project for yoga instructors providing the ability to create customized yoga classes.',
+        liveUrl: 'https://yogi-me.herokuapp.com/',
+        githubUrl: 'https://github.com/GarrettAnderson/capstone'
+      }
+    },
+    {
+      project3: {
+        name: 'To The Movies',
+        image: '/images/toTheMoviesImg.png',
+        desc: 'This is a project showing top showing movies using the TMDB API.',
+        liveUrl: 'https://to-the-movies-garrettanderson.netlify.com',
+        githubUrl: 'https://github.com/GarrettAnderson/to-the-movies'
+      }
     }
   ]
+
+  componentDidMount() {
+    console.log(this.state)
+  }
 
   render() {
     return (

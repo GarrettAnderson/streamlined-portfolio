@@ -16,6 +16,15 @@ const projects = [
       liveUrl: 'https://yogi-me.herokuapp.com/',
       githubUrl: 'https://github.com/GarrettAnderson/capstone'
     }
+  },
+  {
+    project3: {
+      name: 'To The Movies',
+      image: '/images/toTheMoviesImg.png',
+      desc: 'This is a project showing top showing movies using the TMDB API.',
+      liveUrl: 'https://to-the-movies-garrettanderson.netlify.com',
+      githubUrl: 'https://github.com/GarrettAnderson/to-the-movies'
+    }
   }
 ]
 
