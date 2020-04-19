@@ -1,4 +1,13 @@
 import React, { Component } from 'react'
+import James_Hmpage from '../images/James_Hmpage.png'
+import yogiMeImg from '../images/yogiMeImg.png'
+import toTheMoviesImg from '../images/toTheMoviesImg.png'
+import bombSnifferImg from '../images/bombSnifferImg.png'
+import Garrett_Anderson_July_2019 from '../images/Garrett_Anderson_July_2019.pdf'
+import erinWedding from '../images/ErinWeddingScreenshot.png'
+import diceGameScreenshot from '../images/DiceGameScreenshot.png'
+import monsterRolodexScreenshot from '../images/MonsterRolodexScreenshot.png'
+import ajaxAhead from '../images/ajaxAhead.png'
 
 class Projects extends Component {
   render() {
