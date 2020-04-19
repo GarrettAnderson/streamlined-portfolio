@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import James_Hmpage from '../images/James_Hmpage.png'
 
 class Project extends Component {
   render() {
@@ -12,7 +11,7 @@ class Project extends Component {
             className="box-masonry-image with-hover-overlay with-hover-icon"
             target="_blank"
           >
-            <img src={this.props.image} alt="" className="img-fluid" />
+            <img src={require(`../images/${this.props.image}.png`)} alt="" className="img-fluid" />
           </a>
           <div className="box-masonry-text">
             <h4>
