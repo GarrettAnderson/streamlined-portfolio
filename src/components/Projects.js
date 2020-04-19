@@ -8,8 +8,21 @@ import erinWedding from '../images/ErinWeddingScreenshot.png'
 import diceGameScreenshot from '../images/DiceGameScreenshot.png'
 import monsterRolodexScreenshot from '../images/MonsterRolodexScreenshot.png'
 import ajaxAhead from '../images/ajaxAhead.png'
+import ProjectData from '../project-data'
 
 class Projects extends Component {
+  state = [
+    {
+      project1: {
+        name: 'James Dean Does Other Stuff',
+        image: '/images/James_Hmpage.png',
+        desc: 'Here is a website showcasing the artwork of a friend of mine.',
+        liveUrl: 'https://james-photo-gallery-garrettanderson.netlify.com/',
+        githubUrl: 'https://github.com/GarrettAnderson/james-photo-gallery'
+      }
+    }
+  ]
+
   render() {
     return (
       <div class="grid row">
