@@ -44,11 +44,19 @@ const projects = [
   },
   {
     name: 'Monster Rolodex',
-    image: 'DiceGameScreenshot',
+    image: 'MonsterRolodexScreenshot',
     desc:
       'This is an application consuming a RESTful API to render a list of avatars including some information of each. Built using HTML5, CSS3, and ReactJS.',
     liveUrl: 'https://monsters-rolodex-garrettgraham.netlify.com',
     githubUrl: 'https://github.com/GarrettAnderson/monsters-rolodex'
+  },
+  {
+    name: 'Search by City/ State',
+    image: 'ajaxAhead',
+    desc:
+      'This is an application consuming a RESTful API to render a list of cities and states. The user is able to type in the search bar to receive a list of cities that match the search parameters. Built using HTML5, CSS3, and vanilla JavaScript.',
+    liveUrl: 'https://ajax-type-ahead-garrettgraham.netlify.app/',
+    githubUrl: 'https://github.com/GarrettAnderson/ajax-type-ahead'
   }
 ]
 
