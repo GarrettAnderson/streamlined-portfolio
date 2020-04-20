@@ -19,6 +19,13 @@ const projects = [
     desc: 'This is a project showing top showing movies using the TMDB API.',
     liveUrl: 'https://to-the-movies-garrettanderson.netlify.com',
     githubUrl: 'https://github.com/GarrettAnderson/to-the-movies'
+  },
+  {
+    name: 'Bomb Sniffer',
+    image: 'bombSnifferImg',
+    desc: 'This is a project using an API to simulate the game minesweeper.',
+    liveUrl: 'https://bomb-sniffer-garrettanderson.netlify.com',
+    githubUrl: 'https://github.com/GarrettAnderson/bomb-sniffer'
   }
 ]
 
