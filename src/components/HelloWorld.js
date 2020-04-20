@@ -102,9 +102,9 @@ class HelloWorld extends Component {
                     <i class="fa fa-align-left mr-2" />About
                   </button>
                   <ol>
-                    {/* <li>
+                    <li>
                       <img src={profileImg} alt="professional-headshot" className="profile-image" />
-                    </li> */}
+                    </li>
                     <li>
                       <h1 class="small-navbar-heading">
                         <a href="/">Garrett Anderson</a>
