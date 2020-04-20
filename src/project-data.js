@@ -34,6 +34,21 @@ const projects = [
       "This is a website I built for my sister's upcoming wedding. Built from scratch using ReactJS, CSS3, and HTML5.",
     liveUrl: 'https://www.thebernhardtwedding.com',
     githubUrl: 'https://github.com/GarrettAnderson/erins-wedding'
+  },
+  {
+    name: 'Dice Game',
+    image: 'DiceGameScreenshot',
+    desc: 'This is a dice game built built using HTML5, CSS3, and JavaScript.',
+    liveUrl: 'https://dice-game-garrettgraham.netlify.com/',
+    githubUrl: 'https://github.com/GarrettAnderson/dice-game'
+  },
+  {
+    name: 'Monster Rolodex',
+    image: 'DiceGameScreenshot',
+    desc:
+      'This is an application consuming a RESTful API to render a list of avatars including some information of each. Built using HTML5, CSS3, and ReactJS.',
+    liveUrl: 'https://monsters-rolodex-garrettgraham.netlify.com',
+    githubUrl: 'https://github.com/GarrettAnderson/monsters-rolodex'
   }
 ]
 
