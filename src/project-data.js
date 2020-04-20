@@ -26,6 +26,14 @@ const projects = [
     desc: 'This is a project using an API to simulate the game minesweeper.',
     liveUrl: 'https://bomb-sniffer-garrettanderson.netlify.com',
     githubUrl: 'https://github.com/GarrettAnderson/bomb-sniffer'
+  },
+  {
+    name: 'The Bernhardt Wedding',
+    image: 'ErinWeddingScreenshot',
+    desc:
+      "This is a website I built for my sister's upcoming wedding. Built from scratch using ReactJS, CSS3, and HTML5.",
+    liveUrl: 'https://www.thebernhardtwedding.com',
+    githubUrl: 'https://github.com/GarrettAnderson/erins-wedding'
   }
 ]
 
