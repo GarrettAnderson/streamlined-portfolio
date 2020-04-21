@@ -1,7 +1,7 @@
 const projects = [
   {
     name: 'James Dean Does Other Stuff',
-    image: 'James_Hmpage',
+    image: 'James_Screenshot',
     desc: 'Here is a website showcasing the artwork of a friend of mine.',
     liveUrl: 'https://james-photo-gallery-garrettanderson.netlify.com/',
     githubUrl: 'https://github.com/GarrettAnderson/james-photo-gallery'

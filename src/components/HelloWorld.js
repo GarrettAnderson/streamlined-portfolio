@@ -35,27 +35,6 @@ class HelloWorld extends Component {
                     employers alike.
                   </p>
                   <p className="sidebar-p">Born and raised in the shadow of the happiest place on earth. </p>
-                  {/* <ul className="sidebar-menu"> */}
-                  {/*  Link */}
-                  {/* <li class="sidebar-item"> */}
-                  {/* <i class="fas fa-home" /> */}
-                  {/* <a href="/" className="sidebar-link active">
-                        Home
-                      </a>
-                    </li> */}
-                  {/*  Link */}
-                  {/* <li class="sidebar-item">
-                      <a href="#" className="sidebar-link">
-                        About
-                      </a>
-                    </li> */}
-                  {/*  Link */}
-                  {/* <li class="sidebar-item">
-                      <a href="#" className="sidebar-link">
-                        Get in touch
-                      </a>
-                    </li> */}
-                  {/* </ul> */}
                   <p className="social">
                     <a href="https://github.com/GarrettAnderson" data-animate-hover="pulse" class="external github">
                       <i className="fab fa-github" />
@@ -67,13 +46,13 @@ class HelloWorld extends Component {
                     >
                       <i className="fab fa-linkedin-in" />
                     </a>
-                    <a
+                    {/* <a
                       href="https://medium.com/@garrettleegrahamanderson"
                       data-animate-hover="pulse"
                       class="external medium"
-                    >
+                    > 
                       <i class="fab fa-medium-m" />
-                    </a>
+                    </a>*/}
                     <a
                       href="https://github.com/GarrettAnderson/student-resumes"
                       title="resume"
@@ -103,16 +82,12 @@ class HelloWorld extends Component {
                   </button>
                   <ol>
                     <li>
-                      <img src={profileImg} alt="professional-headshot" className="profile-image" />
-                    </li>
-                    <li>
                       <h1 class="small-navbar-heading">
                         <a href="/">Garrett Anderson</a>
                       </h1>
                     </li>
                   </ol>
                 </div>
-
                 <Projects />
               </div>
 

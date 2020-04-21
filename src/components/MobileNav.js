@@ -1,6 +1,10 @@
 import React, { Component } from 'react'
 
 class MobileNav extends Component {
+  state = {
+    navShown: false
+  }
+
   render() {
     return (
       <div class="small-navbar d-flex d-md-none">
