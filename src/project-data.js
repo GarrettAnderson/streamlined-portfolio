@@ -57,6 +57,22 @@ const projects = [
       'This is an application consuming a RESTful API to render a list of cities and states. The user is able to type in the search bar to receive a list of cities that match the search parameters. Built using HTML5, CSS3, and vanilla JavaScript.',
     liveUrl: 'https://ajax-type-ahead-garrettgraham.netlify.app/',
     githubUrl: 'https://github.com/GarrettAnderson/ajax-type-ahead'
+  },
+  {
+    name: 'Reactified Invoice',
+    image: 'screencapture-simple-react-invoice',
+    desc:
+      'This is a simple application where a user is able to create an Invoice. The user is able to select from a drop down of items, triggering a GET request from an API, and add the selected item to a table of items. The user is then able to click the pay now button which triggers a POST request and sends the table of selected items to the Fattmerchant OMNI API.',
+    liveUrl: 'https://simple-react-invoice-garrettgraham.netlify.app/',
+    githubUrl: 'https://github.com/GarrettAnderson/simple-react-invoice'
+  },
+  {
+    name: 'Catch of the Day App',
+    image: 'catchOfTheDay',
+    desc:
+      'This is an application that features a menu displaying the various seafood choices. This app allows users to select a choice that will be added to an inventory of choices and the total price will update accordingly. Built using HTML, CSS and ReactJS.',
+    liveUrl: 'https://fish-menu.netlify.app',
+    githubUrl: 'https://github.com/GarrettAnderson/catch-of-the-day'
   }
 ]
 
