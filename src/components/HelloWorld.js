@@ -52,7 +52,7 @@ class HelloWorld extends Component {
                       class="external instagram"
                       target="_blank"
                     >
-                      <i class="far fa-file" > 
+                      <i class="far fa-file" >
                     </a> */}
                   </p>
                   <div class="copyright text-center text-md-left">
