@@ -1,10 +1,21 @@
 const projects = [
   {
+    name: 'Cyborg',
+    image: 'CyborgScreenshot',
+    desc: '',
+    liveUrl: 'https://cyborg.elevuxdev.com/',
+  },
+  {
+    name: 'Art & Desi',
+    image: 'ArtDesiScreenshot',
+    desc: 'Here is a website showcasing the work of a graphic designer. Built with WordPress and WooCommerce.',
+    liveUrl: 'https://artanddesi.com',
+  },
+  {
     name: 'James Dean Does Other Stuff',
-    image: 'James_Screenshot',
-    desc: 'Here is a website showcasing the artwork of a friend of mine.',
-    liveUrl: 'https://james-photo-gallery-garrettanderson.netlify.com/',
-    githubUrl: 'https://github.com/GarrettAnderson/james-photo-gallery'
+    image: 'JamesDeanScreenshot',
+    desc: 'Here is a website showcasing the work of a photographer. Built with WordPress and WooCommerce.',
+    liveUrl: 'https://artanddesi.com/jddos/',
   },
   {
     name: 'The Yogi Me',
