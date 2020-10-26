@@ -2,7 +2,7 @@ const projects = [
   {
     name: 'Cyborg',
     image: 'CyborgScreenshot',
-    desc: '',
+    desc: 'This is a web site I worked on for a cybersecurity company. This site is built with WordPress where I created a custom theme with HTML, CSS and PHP utilizing the Advanced Custom Fields plugin.',
     liveUrl: 'https://cyborg.elevuxdev.com/',
   },
   {
