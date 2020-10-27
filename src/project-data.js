@@ -29,7 +29,7 @@ const projects = [
     image: 'yogiMeImg',
     desc: 'The Yogi Me is a project for yoga instructors providing the ability to create customized yoga classes.',
     liveUrl: 'https://yogi-me.herokuapp.com/',
-    githubUrl: 'https://github.com/',
+    githubUrl: 'https://github.com/GarrettAnderson/capstone',
     hasGit: true
   },
   {
