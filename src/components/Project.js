@@ -22,13 +22,13 @@ class Project extends Component {
             <div className="box-masonry-desription">
               <p>{this.props.desc}</p>
               <ol className="project-site-links">
-                <li>
+                <li class="${this.props.GitHub = null ? 'github-link' : ''}">
                   <a href={this.props.githubUrl} target="_blank">
                     GitHub
                   </a>
                 </li>
                 <li>
-                  <a href="https://james-photo-gallery-garrettanderson.netlify.com/" target="_blank">
+                  <a href={this.props.liveUrl} target="_blank">
                     Live Site
                   </a>
                 </li>

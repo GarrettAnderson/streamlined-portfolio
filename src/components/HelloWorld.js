@@ -46,21 +46,14 @@ class HelloWorld extends Component {
                     >
                       <i className="fab fa-linkedin-in" />
                     </a>
-                    {/* <a
-                      href="https://medium.com/@garrettleegrahamanderson"
-                      data-animate-hover="pulse"
-                      class="external medium"
-                    > 
-                      <i class="fab fa-medium-m" />
-                    </a>*/}
-                    <a
+                    {/*   <a
                       href="https://github.com/GarrettAnderson/student-resumes"
                       title="resume"
                       class="external instagram"
                       target="_blank"
                     >
-                      <i class="far fa-file" />
-                    </a>
+                      <i class="far fa-file" >
+                    </a> */}
                   </p>
                   <div class="copyright text-center text-md-left">
                     <p class="credit">&copy;2020 | Garrett L. G. Anderson</p>
