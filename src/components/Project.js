@@ -28,7 +28,7 @@ class Project extends Component {
                   </a>
                 </li>
                 <li>
-                  <a href="https://james-photo-gallery-garrettanderson.netlify.com/" target="_blank">
+                  <a href={this.props.liveUrl} target="_blank">
                     Live Site
                   </a>
                 </li>
