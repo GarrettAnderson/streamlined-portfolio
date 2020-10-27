@@ -1,7 +1,22 @@
 import React, { Component } from 'react'
+import Projects from "../project-data.js"
+
+var projectData = Projects
+console.log(projectData)
 
 class Project extends Component {
+
+state = {
+gitlinkVisible: this.props.hasGit
+};
+
+
   render() {
+
+    const { gitlinkVisible } = this.state
+    console.log(gitlinkVisible)
+
+
     return (
       <div className="col-md-6 col-lg-3 grid-item">
         <div className="box-masonry">
@@ -22,7 +37,7 @@ class Project extends Component {
             <div className="box-masonry-desription">
               <p>{this.props.desc}</p>
               <ol className="project-site-links">
-                <li class="${this.props.GitHub = null ? 'github-link' : ''}">
+                <li id="github-link" className={`githubLink ${!gitlinkVisible ? 'hidden' : ''}`}>
                   <a href={this.props.githubUrl} target="_blank">
                     GitHub
                   </a>

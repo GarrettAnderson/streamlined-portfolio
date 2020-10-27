@@ -13,6 +13,16 @@
 =========================================================
 
 */
+
+
+/* START Garrett's Custom Styles */
+
+.hidden {
+  display: none;
+}
+
+/* END  */
+
 html,
 body {
     overflow-x: hidden;
@@ -1033,12 +1043,12 @@ STYLE SWITCHER FOR DEMO
     color: #252525;
 }
 
-/* ========================================= 
-   
-      THEMING OF THE BOOTSTRAP COMPONENTS           
+/* =========================================
 
-   ========================================= 
-   
+      THEMING OF THE BOOTSTRAP COMPONENTS
+
+   =========================================
+
     1 - NAVBAR
     2 - BUTTONS
     3 - TYPE
@@ -1049,7 +1059,7 @@ STYLE SWITCHER FOR DEMO
     8 - NAV
     9 - CARD
     10 - DROPDOWNS
-   
+
 */
 /*
  * 1. NAVBAR
@@ -1872,7 +1882,7 @@ STYLE SWITCHER FOR DEMO
 }
 
 /*
- * 3. TYPE  
+ * 3. TYPE
  */
 body {
     font-family: "Roboto", Helvetica, Arial, sans-serif;

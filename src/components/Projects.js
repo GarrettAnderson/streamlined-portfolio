@@ -16,6 +16,7 @@ class Projects extends Component {
               desc={project.desc}
               liveUrl={project.liveUrl}
               githubUrl={project.githubUrl}
+              hasGit={project.hasGit}
             />
           )
         })}
