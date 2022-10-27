@@ -1,29 +1,29 @@
 const projects = [
-  {
-    name: 'Cyborg',
-    image: 'CyborgScreenshot',
-    desc: 'This is a web site I worked on for a cybersecurity company. This site is built with WordPress where I created a custom theme with HTML, CSS, and PHP utilizing the Advanced Custom Fields plugin.',
-    liveUrl: 'https://cyborg.elevuxdev.com/',
-    githubUrl: 'https://github.com/',
-    hasGit: false
-  },
-  {
-    name: 'Art & Desi',
-    image: 'ArtDesiScreenshot',
-    desc: 'Here is a website showcasing the work of a graphic designer. Built with WordPress and WooCommerce.',
-    liveUrl: 'https://artanddesi.com',
-    githubUrl: 'https://github.com/',
-    hasGit: false
+  // {
+  //   name: 'Cyborg',
+  //   image: 'CyborgScreenshot',
+  //   desc: 'This is a web site I worked on for a cybersecurity company. This site is built with WordPress where I created a custom theme with HTML, CSS, and PHP utilizing the Advanced Custom Fields plugin.',
+  //   liveUrl: 'https://cyborg.elevuxdev.com/',
+  //   githubUrl: 'https://github.com/',
+  //   hasGit: false
+  // },
+  // {
+  //   name: 'Art & Desi',
+  //   image: 'ArtDesiScreenshot',
+  //   desc: 'Here is a website showcasing the work of a graphic designer. Built with WordPress and WooCommerce.',
+  //   liveUrl: 'https://artanddesi.com',
+  //   githubUrl: 'https://github.com/',
+  //   hasGit: false
 
-  },
-  {
-    name: 'James Dean Does Other Stuff',
-    image: 'JamesDeanScreenshot',
-    desc: 'Here is a website showcasing the work of a photographer. Built with WordPress and WooCommerce.',
-    liveUrl: 'https://artanddesi.com/jddos/',
-    githubUrl: 'https://github.com/',
-    hasGit: false
-  },
+  // },
+  // {
+  //   name: 'James Dean Does Other Stuff',
+  //   image: 'JamesDeanScreenshot',
+  //   desc: 'Here is a website showcasing the work of a photographer. Built with WordPress and WooCommerce.',
+  //   liveUrl: 'https://artanddesi.com/jddos/',
+  //   githubUrl: 'https://github.com/',
+  //   hasGit: false
+  // },
   {
     name: 'The Yogi Me',
     image: 'yogiMeImg',
