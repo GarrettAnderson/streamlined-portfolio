@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "streamlined-portfolio",
-  "homepage": "https://streamlined-portfolio-garrettgraham.netlify.com",
+  "homepage": "https://garrettanderson.github.io/streamlined-portfolio",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
