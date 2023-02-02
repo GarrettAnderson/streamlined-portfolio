@@ -24,22 +24,22 @@ const projects = [
   //   githubUrl: 'https://github.com/',
   //   hasGit: false
   // },
-  {
-    name: 'The Yogi Me',
-    image: 'yogiMeImg',
-    desc: 'The Yogi Me is a project for yoga instructors providing the ability to create customized yoga classes.',
-    liveUrl: 'https://yogi-me.herokuapp.com/',
-    githubUrl: 'https://github.com/GarrettAnderson/capstone',
-    hasGit: true
-  },
-  {
-    name: 'To The Movies',
-    image: 'toTheMoviesImg',
-    desc: 'This is a project showing top showing movies using the TMDB API.',
-    liveUrl: 'https://to-the-movies-garrettanderson.netlify.com',
-    githubUrl: 'https://github.com/GarrettAnderson/to-the-movies',
-    hasGit: true
-  },
+  // {
+  //   name: 'The Yogi Me',
+  //   image: 'yogiMeImg',
+  //   desc: 'The Yogi Me is a project for yoga instructors providing the ability to create customized yoga classes.',
+  //   liveUrl: 'https://yogi-me.herokuapp.com/',
+  //   githubUrl: 'https://github.com/GarrettAnderson/capstone',
+  //   hasGit: true
+  // },
+  // {
+  //   name: 'To The Movies',
+  //   image: 'toTheMoviesImg',
+  //   desc: 'This is a project showing top showing movies using the TMDB API.',
+  //   liveUrl: 'https://to-the-movies-garrettanderson.netlify.com',
+  //   githubUrl: 'https://github.com/GarrettAnderson/to-the-movies',
+  //   hasGit: true
+  // },
   {
     name: 'Bomb Sniffer',
     image: 'bombSnifferImg',
@@ -48,16 +48,16 @@ const projects = [
     githubUrl: 'https://github.com/GarrettAnderson/bomb-sniffer',
     hasGit: true
   },
-  {
-    name: 'The Bernhardt Wedding',
-    image: 'ErinWeddingScreenshot',
-    desc:
-      "This is a website I built for my sister's upcoming wedding. Built from scratch using ReactJS, CSS3, and HTML5.",
-    liveUrl: 'https://www.thebernhardtwedding.com',
-    githubUrl: 'https://github.com/GarrettAnderson/erins-wedding',
-    hasGit: true
+  // {
+  //   name: 'The Bernhardt Wedding',
+  //   image: 'ErinWeddingScreenshot',
+  //   desc:
+  //     "This is a website I built for my sister's upcoming wedding. Built from scratch using ReactJS, CSS3, and HTML5.",
+  //   liveUrl: 'https://www.thebernhardtwedding.com',
+  //   githubUrl: 'https://github.com/GarrettAnderson/erins-wedding',
+  //   hasGit: true
 
-  },
+  // },
   {
     name: 'Dice Game',
     image: 'DiceGameScreenshot',
