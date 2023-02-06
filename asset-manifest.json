@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/streamlined-portfolio/static/css/main.ccc5fcaf.chunk.css",
+    "main.js": "/streamlined-portfolio/static/js/main.f45fedba.chunk.js",
+    "main.js.map": "/streamlined-portfolio/static/js/main.f45fedba.chunk.js.map",
+    "runtime-main.js": "/streamlined-portfolio/static/js/runtime-main.e557e187.js",
+    "runtime-main.js.map": "/streamlined-portfolio/static/js/runtime-main.e557e187.js.map",
+    "static/js/2.c0fc56ab.chunk.js": "/streamlined-portfolio/static/js/2.c0fc56ab.chunk.js",
+    "static/js/2.c0fc56ab.chunk.js.map": "/streamlined-portfolio/static/js/2.c0fc56ab.chunk.js.map",
+    "index.html": "/streamlined-portfolio/index.html",
+    "precache-manifest.55f62a6d71d825d9e5d0aa181f6281e0.js": "/streamlined-portfolio/precache-manifest.55f62a6d71d825d9e5d0aa181f6281e0.js",
+    "service-worker.js": "/streamlined-portfolio/service-worker.js",
+    "static/css/main.ccc5fcaf.chunk.css.map": "/streamlined-portfolio/static/css/main.ccc5fcaf.chunk.css.map",
+    "static/js/2.c0fc56ab.chunk.js.LICENSE.txt": "/streamlined-portfolio/static/js/2.c0fc56ab.chunk.js.LICENSE.txt",
+    "static/media/ArtDesiScreenshot.png": "/streamlined-portfolio/static/media/ArtDesiScreenshot.b38c29f8.png",
+    "static/media/CyborgScreenshot.png": "/streamlined-portfolio/static/media/CyborgScreenshot.61ac48b5.png",
+    "static/media/DiceGameScreenshot.png": "/streamlined-portfolio/static/media/DiceGameScreenshot.7a819883.png",
+    "static/media/ErinWeddingScreenshot.png": "/streamlined-portfolio/static/media/ErinWeddingScreenshot.f1a0e01e.png",
+    "static/media/JamesDeanScreenshot.png": "/streamlined-portfolio/static/media/JamesDeanScreenshot.b0e038af.png",
+    "static/media/James_Hmpage.png": "/streamlined-portfolio/static/media/James_Hmpage.b7d6f093.png",
+    "static/media/James_Screenshot.png": "/streamlined-portfolio/static/media/James_Screenshot.c1a55d84.png",
+    "static/media/MonsterRolodexScreenshot.png": "/streamlined-portfolio/static/media/MonsterRolodexScreenshot.3c98ef64.png",
+    "static/media/ajaxAhead.png": "/streamlined-portfolio/static/media/ajaxAhead.e345e883.png",
+    "static/media/bombSnifferImg.png": "/streamlined-portfolio/static/media/bombSnifferImg.ea185e41.png",
+    "static/media/catchOfTheDay.png": "/streamlined-portfolio/static/media/catchOfTheDay.3ab8df4d.png",
+    "static/media/colorPickerImg.png": "/streamlined-portfolio/static/media/colorPickerImg.c2130ab1.png",
+    "static/media/cropHeadShot.png": "/streamlined-portfolio/static/media/cropHeadShot.8b52586a.png",
+    "static/media/flexCSSPanel.png": "/streamlined-portfolio/static/media/flexCSSPanel.93dc9abc.png",
+    "static/media/screencapture-simple-react-invoice.png": "/streamlined-portfolio/static/media/screencapture-simple-react-invoice.8c6213f6.png",
+    "static/media/toTheMoviesImg.png": "/streamlined-portfolio/static/media/toTheMoviesImg.697069b5.png",
+    "static/media/yogiMeImg.png": "/streamlined-portfolio/static/media/yogiMeImg.126c0dba.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e557e187.js",
+    "static/js/2.c0fc56ab.chunk.js",
+    "static/css/main.ccc5fcaf.chunk.css",
+    "static/js/main.f45fedba.chunk.js"
+  ]
+}
